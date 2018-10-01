@@ -6,6 +6,6 @@
   "memory": 2048,
   "volumes": {
     "config": "/etc/sourcegraph",
-    "data": "/var/opt/sourcegraph",
+    "data": "/var/opt/sourcegraph"
   }
 }
