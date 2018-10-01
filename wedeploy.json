@@ -1,0 +1,11 @@
+{
+  "id": "server",
+  "image": "sourcegraph/server:2.11.2",
+  "port": 7080,
+  "cpu": 1,
+  "memory": 2048,
+  "volumes": {
+    "config": "/etc/sourcegraph",
+    "data": "/var/opt/sourcegraph",
+  }
+}
