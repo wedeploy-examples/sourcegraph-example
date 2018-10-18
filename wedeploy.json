@@ -1,6 +1,6 @@
 {
   "id": "server",
-  "image": "sourcegraph/server:2.11.2",
+  "image": "sourcegraph/server:2.12.0",
   "port": 7080,
   "volumes": {
     "config": "/etc/sourcegraph",
